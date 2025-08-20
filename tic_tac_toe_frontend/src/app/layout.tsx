@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Minimal Next.js App",
-  description: "Ultra-minimal Next.js application",
+  title: "Tic Tac Toe Game",
+  description: "A modern, minimalistic Tic Tac Toe game",
 };
 
 export default function RootLayout({
