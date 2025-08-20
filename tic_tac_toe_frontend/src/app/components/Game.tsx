@@ -59,7 +59,7 @@ export default function Game() {
 
   return (
     <div className="flex flex-col items-center gap-8 p-4">
-      <h1 className="text-4xl font-bold text-primary">Tic Tac Toe</h1>
+      <h1 className="text-4xl font-bold text-accent">Tic Tac Toe</h1>
       
       <div className="text-xl font-semibold mb-4 fade-in" style={{ color: winner ? 'var(--color-accent)' : 'var(--color-primary)' }}>
         {status}
